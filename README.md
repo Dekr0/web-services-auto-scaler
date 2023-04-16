@@ -4,7 +4,7 @@
 and number of replications of a simple web service, and scale up / down the number of relications of 
 this web service based on demand. The scaling policy is based off The Queuing Theory and The Queuing 
 Rule of Thumb.
-- This simple web service was written `Flask`, and only had one route (`\`). Each time a request was 
+- This simple web service was written `Flask`, and only have one route (`\`). Each time a request was 
 received, this service will simply sleep for a random amount of time to pretend that it's doing some 
 difficuly computation. Then, it will return a response that contains number of visitors that have 
 visited this web service and the amount of sleep time. 
