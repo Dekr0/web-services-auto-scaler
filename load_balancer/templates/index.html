@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Workers' Response Time</title>
+    </head>
+    <body>
+        <p>Average Response Time: {{ avg }}</p>
+        <p>Response time history</p>
+        <ul>
+            {% for time in times: %}
+            <li>{{ time }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
+
+
